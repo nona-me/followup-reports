@@ -2445,930 +2445,6 @@ Thank you for your time.
 
 Kind regards,
 Said Ela",1760089657,1760089653,,35441
-609256,warte auf Antwort,1760652000,,Goinplaces,,,Sent,Sent,"""Mag. Christoph Kiener | Goin' Places"" <c.kiener@goinplaces.at>; Mag. Kiener Goin' Places <c.kiener=40goinplaces.at>","""Christoph Kiener"" <mail@christophkiener.at>",Katharina Zehender <k.zehender=40goinplaces.at>,,AW: Re: AW: Re: AW: Re: AW: Re: Veneufinder,"Begin forwarded message:
-From: Mag. Kiener Goin' Places <c.kiener@goinplaces.at>
-Subject: AW: Re: AW: Re: AW: Re: AW: Re: Veneufinder
-Date: 10.10.2025 at 18:23:41
-Servus,
-
-ja, 10 projekte und 20 Bilder manuell zuordnen wird kein problem sein. Kannst du sagen welche projekte betroffen wären? Aktuell sind die Zuordnungen aber alle noch gelöscht, oder? Ich hab gerade ein paar locations durchgeschaut, da hats überall noch gefehlt.
-Bzgl. dem Feld und der Umprogrammierung muss ich nächste Woche mit Kathi sprechen. Das trau ich mich allein nicht abschätzen, weil ich in die Kommunikation nicht eingebunden war.
-Im Anhang sende ich nochmal neue JSONs, sollte es sich ergeben, dass beim Wiederherstellen der Verknüpfungen ein Import möglich/notwendig wäre.
-
-Ich hab übrigens immer noch Probleme mit der Erreichbarkeit des Servers. Mit Safari sagt er mir immer noch nach random Klicks, dass der Server plötzlich nicht mehr erreichbar ist. (random soll heißen, ich hab noch kein sicher reproduzierbares Verhalten herausfinden können). Schließe ich Safari komplett und versuche es dann erneut, geht des wieder. Inkognito-Modus macht dabei keinen Unterschied. Mit Chrome komme ich gar nicht hin. Da sagt er gleich ERR_CONNECTION_REFUSED - euer Server mag mich nicht mehr :)
-in Chrome ist meine IP 83.229.93.3
-Die gestern kam aus Safari. Die ist vermutlich anders weil ich iCloud privat Relay aktiv hab (und scheinbar interessiert sich Chrome dafür nicht…) Diese Probleme sind gestern in der Form zum ersten Mal aufgetreten, könnte mich nicht daran erinnern, dass ich vorher Schwierigkeiten hatte.
-
-Liebe Grüße, 
-Christoph 
-
-----
-On 09.10.2025 at 23:18:58, Lukas Kränkl wrote:
-
-
-Servus Christoph,
- 
-wir haben die Files gerade neu importiert.
-
- 
-Ja, es ist uns leider beim Import ein Fehler unterlaufen und wir haben die Verknüpfungen unabsichtlich gelöscht.
-
- Zukünftig passiert das aber nicht mehr.
-
-Wir haben gerade Forensics betrieben: Es sollten ca. 10 VFrames und ca. 20 Bilder betreffen, die leider jetzt nicht mehr zugeordnet sind.
-
-Bitte um Entschuldigung. Wärs für euch okay, wenn ihr die manuell wieder zusammenfügt, oder sollen wir verknüpfen?
-Wir hätten zwar ein Backup mit möglichem Rollback, aber dann müssten wir wieder neu importieren und es wäre auch der Stand von letzter Nacht.
-
-Ich denke eine händische Neuverknüpfung bei der geringen Anzahl wäre hier einfacher.
-
- 
-Zu deinen vorherigen Fragen:
-
--  Wenn es eine Location mit der bp_event_id bereits gibt, dann wird diese Location überschrieben.
-
-Wenn die ID nicht in der Liste vorkommt, wird die Location nicht gelöscht und auch nicht verändert.
-
-Es ist daher möglich in Wordpress Location anzulegen, von denen BPEvent nichts weiß und diese bleiben auch beim Import erhalten.
-
- 
-- Das Feld überschreibbar zu machen, benötigt leider einer etwas aufwändigen Umprogrammierung und wäre ca. eine 1-1 ½ h Aufwand. Könntet ihr das dem Kunden weiterverrechnen?
- 
-Liebe Grüße
-Lukas
- 
- 
- 
-
-Von: Mag. Christoph Kiener | Goin' Places <c.kiener@goinplaces.at>
-
-Gesendet: Donnerstag, 9. Oktober 2025 12:45
-An: Lukas Kränkl <lukas@gebruederpixel.at>
-Betreff: Re: AW: Re: AW: Re: AW: Re: Veneufinder
-
- 
-
-
-geht eh schon wieder, weiß nicht was los war. ip wäre aktuell 172.226.131.35
-
-
-hab aber gerade festgestellt, dass alle Medienzuordnungen scheinbar gelöscht wurden… die Bilder und Vrame-projekte sind zwar noch in der Bibliothek aber nicht
- mehr den Locations zugeordnet. Das ist natürlich doof...
-
-
- 
-
-
-Liebe Grüße, 
-
-
-Christoph 
-
-
- 
-
-
-
-
-
- 
-
-
-On 09.10.2025 at 12:42:00, Lukas Kränkl wrote:
-
-
-
-
-
-
-
-Hi,
-
-
- 
-
-
-danke dir. Schau ich mir gleich an.
-
-
-
- 
-
-
-Server ist online und problemlos erreichbar.
-
-
-
-Möglicherweise hat euch die Firewall geblockt. Habe gerade alle IP Sperren gelöst.
-
-
-
-Schick mir bitte deine IP Adresse, dann gebe ich euch auf die Whitelist.
-
-
- 
-
-
-Restliche Antworten folgen
-😊
-
-
-
- 
-
-
-Liebe Grüße
-
-
-Lukas
-
-
- 
-
-
-
-Von: Mag. Christoph Kiener
- | Goin' Places <c.kiener@goinplaces.at>
-
-Gesendet: Donnerstag, 9. Oktober 2025 12:37
-An: Lukas Kränkl <lukas@gebruederpixel.at>
-Betreff: Re: AW: Re: AW: Re: Veneufinder
-
-
-
- 
-
-
-
-
-Hi,
-
-
-
-
- 
-
-
-
-
-danke. Ich hab nur leider festgestellt, dass wo ein Fehler drinnen war. Dürfte ich euch nochmal bitten…
-🫣
-
-
-
-
-Dazu gleich ein, zwei Fragen:
-
-
-
-
-- wenn ich doch eine Location nicht in BpEvent sondern direkt im WP Backend anlege, wird die beim nächsten Import der JSONs überschrieben
- oder gelöscht, korrekt?
-
-
-
-
-- Die Anzahl der Räume einer Location ist ein berechnetes Feld - anhand der Anzahl der Räume eben, richtig? Wäre es noch möglich
- das überschreibbar zu machen? Aktuell ist es ja technisch bedingt so, dass wenn eine Location einen Raum 1 und einen Raum 2 hat, die aber miteinander verbunden werden können, wir um die Kapazitäten in der Raumübersicht darstellen zu können diesen Raum 1+2
- auch so anlegen müssen. In den Eckdaten steht  dann aber bei Anzahl der Räume auch 3, was so dann ja nicht stimmt. Der Wunsch dieser Korrekturmöglichkeit wurde von Kunden an uns herangetragen.
-
-
-
-
- 
-
-
-
-
-Achja, und der Server (https://venuefinder.dev.gebruederpixel.at)
- dürfte gerade offline sein. zumindest komm ich nicht hin… just to let you know..
-
-
-
-
- 
-
-
-
-
-Liebe Grüße, 
-
-
-
-
-Christoph 
-
-
-
-
- 
-
-
-
-
-
-
- 
-
- 
-
-
-
-
-On 09.10.2025 at 12:04:27, Lukas Kränkl wrote:
-
-
-
-
-
-
-
-
-
-Hi,
-
-
-
-
- 
-
-
-
-
-wir haben die neuen JSONs eingespielt.
-
-
-
-
- 
-
-
-
-
-Liebe Grüße
-
-
-
-
-Lukas
-
-
-
-
- 
-
-
-
-
-
-Von: Mag. Christoph Kiener
- | Goin' Places <c.kiener@goinplaces.at>
-
-Gesendet: Mittwoch, 8. Oktober 2025 14:20
-An: Lukas Kränkl <lukas@gebruederpixel.at>
-Betreff: Re: AW: Re: Veneufinder
-
-
-
-
-
- 
-
-
-
-
-
-
-Hi,
-
-
-
-
-
-
- 
-
-
-
-
-
-
-dürfte ich euch noch einmal bitte neue JSONs einzuspielen?
-
-
-
-
-
-
-Wenn alles klappt, haben wir den Server Mitte-Ende nächster Woche fertig.
-
-
-
-
-
-
- 
-
-
-
-
-
-
-Liebe Grüße, 
-
-
-
-
-
-
-Christoph 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
- 
- 
-
-
- 
-
-
-
-
-
-
-On 16.09.2025 at 21:35:22, Lukas Kränkl wrote:
-
-
-
-
-
-
-
-
-
-
-
-Hi,
-
-
-
-
-
-
- 
-
-
-
-
-
-
-gibt’s schon News von eurem Server?
-😊
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-Liebe Grüße
-
-
-
-
-
-
-Lukas
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-Von: Mag. Christoph Kiener
- | Goin' Places <c.kiener@goinplaces.at>
-
-Gesendet: Dienstag, 9. September 2025 17:20
-An: Lukas Kränkl <lukas@gebruederpixel.at>
-Cc: Katharina Zehender <k.zehender@goinplaces.at>
-Betreff: Re: Veneufinder
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-Servus Lukas,
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-ich warte im Augenblick auf die Nachricht von unserem externen WebDev das bzw wann unser neuer Server fertig aufgesetzt ist.
-
-
-
-
-
-
-
-
-Die Datenpflege unsererseits läuft soweit, glaub ich :) Einen detaillierten Überblick hab ich noch nicht gewonnen nach meinem Urlaub.
- Aber wenn es genügend Änderungen in BpEvent gibt, lass ich dir wieder die JSONs zukommen. Die automatische Aktualisierung würde ich dann erst mit unserem Server angehen.
-
-
-
-
-
-
-
-
-Was meinst du?
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-Liebe Grüße, 
-
-
-
-
-
-
-
-
-Christoph 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
- 
-
- 
-
-
-
- 
-
-
-
-
-
-
-
-
-On 08.09.2025 at 12:05:55, Lukas Kränkl wrote:
-
-
-
-
-
-
-
-
-
-
-
-
-
-Servus Christoph,
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-ich hoffe du hattest einen erholsamen Urlaub
-😊
-
-
-
-
-
-
-
-
-Wie ist aktuell der Stand beim Venuefinder?
-
-
-
-
-
-
-
-
-
-Benötigt ihr irgendwo aktuell unsere Unterstützung?
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-Liebe Grüße
-
-
-
-
-
-
-
-
-Lukas
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-<image001.png>
-
-
-
-
-
-
-
-
-
-
-
-DI Lukas Kränkl, BSc
-
-
-
-
-
-
-
-
-Geschäftsführer
-
-
-
-
-
-
-
-
-Technischer Dirigent
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-Certified Web Accessibility Expert
-
-
-
-
-
-
-
-
-KMU.Digital-Berater
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-+43 1 963 1000-11
-
-
-
-
-
-
-
-
-lukas@gebruederpixel.at
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-<image002.gif>
-
-
-
-
-
-
-
-
-
-
-
-
-
-Büro für visuelle Gestaltung und hybrides Kommunikationsdesign
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-Schließmanngasse 18/2
-
-
-
-
-
-
-
-
-1130 Wien
-
-
-
-
-
-
-
-
-www.gebruederpixel.at
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-<image003.png>",1760132504,1760132490,,7569
-609577,Abarbeiten,,,KOOP365,,4,Posteingang,Posteingang,Gregor Lach <gregor.lach@doclx-holding.com>,"""office@aula-wien.at"" <office@aula-wien.at>",,,Anfrage 2017,"Liebes Aula der Wissenschaften-Team,
-
-wir möchten die Aula der Wisschenschaften für einen Kongress im September 2027 anfragen - mit der Info, ob bis dahin Umbauarbeiten o.ä. geplant sind die in diesen Zeitraum ragen.
-Falls nicht, würde ich mich nach einer kurzen Antwort mit den ersten Details bzgl. Angebot melden - vermutlich mit Preisen für 2026!?
-
-Mit besten Grüßen
-Gregor Lach
-
-Mit freundlichen Grüßen
-
-Mag.(FH) Gregor Lach, Captain
-Unitleiter Business Events
-DocLX Holding GmbH
-Ringstraßen-Palais Schnapper
-Parkring 20
-1010 Wien
-www.doclx-holding.com<http://www.doclx-holding.com/>
-email:
-phone:
-fax:
-mobile:
-gregor.lach@doclx-holding.com<mailto:gregor.lach@doclx-holding.com>
-+43 (1) 47 87 255
-+43 (1) 47 87 255 - 70
-+43 (676) 844 01 18 29
-Firmenbuch: FN190932h, Handelsgericht Wien
-ISO / IEC17024 TÜV Certificate l Certified Event Agency
-Member of EMBA l Event Marketing Board Austria
-[cid:image001.png@01DC3D0E.79378370]
-
-HINWEIS:
-Alle von Gesellschaften der DocLX Holding GmbH elektronisch übermittelten Auskünfte, Mitteilungen
-und Erklärungen sind vertraulich und rechtlich unverbindlich. Verpflichtungen von Gesellschaften der
-DocLX Holding GmbH bedürfen der schriftlichen Einigung in sämtlichen Vertragspunkten sowie der Unterfertigung
-durch das vertretungsbefugte Organ. Im Falle einer Fehlübermtlung ersuchen wir um Benachrichtigung sowie um
-Vernichtung und Beachtung, dass jegliche Form der Verwendung und Weitergabe der Inhalte an Dritte unzulässig ist.",1760441260,1760441256,AAMkADgxNjBlMTYwLTVmMWQtNDJiMy05OTU1LWIwZjYyZjg3YzU1MABGAAAAAABxJxYHl/RmTq8NlcwHzkDCBwDuvVlZ4JyKQLLbydgtgZnOAAAAAAEMAADuvVlZ4JyKQLLbydgtgZnOAAGuOHVVAAA=,
 609580,warte auf Antwort,1760997600,,KOOP365,,4,Gesendete Elemente,Gesendete Elemente,Christoph Kiener <c.kiener@aula-wien.at>,Patrick Kinzer <patrick.kinzer@joke-event.at>,Michael Tenhalter <michael.tenhalter@joke-event.at>,,Anfrage Jubiläumsfeier / Juni 2026 / 300 Personen,"Sehr geehrter Herr Kinzer,
 
 leider konnte ich Sie telefonisch nicht erreichen.
@@ -4395,3 +3471,166 @@ If you could send me any information you have about performances in your venue, 
 
 Thank you so much for your help!
 [https://ci3.googleusercontent.com/mail-sig/AIorK4zemZeD2cIuShnhbXSu9o1J-Iaugo6pIyfreBQ8cq7h_eIQgN0vkDdHOYiB7r770dvwCmBIRLZ7mS4T]",1760630379,1760630379,AAMkADgxNjBlMTYwLTVmMWQtNDJiMy05OTU1LWIwZjYyZjg3YzU1MABGAAAAAABxJxYHl/RmTq8NlcwHzkDCBwDuvVlZ4JyKQLLbydgtgZnOAAAAAAEJAADuvVlZ4JyKQLLbydgtgZnOAAGwBWmXAAA=,
+610176,warte auf Antwort,1761256800,,KOOP365,,4,Gesendete Elemente,Gesendete Elemente,Christoph Kiener <c.kiener@aula-wien.at>,Gregor Lach <gregor.lach@doclx-holding.com>,,,Anfrage 2017,"Sehr geehrter Herr Lach,
+
+leider konnte ich Sie telefonisch nicht erreichen.
+Es ist tatsächlich so, dass der neue Eigentümer ab 2026 Umbauarbeiten bis Mitte 2027 geplant hat. Ob dieser Zeitplan hält und welche Veranstaltungen mit welchen Kapazitäten nach dem Umbau möglich sein werden, kann ich Ihnen zum jetzigen Zeitpunkt leider nicht beantworten.
+Da unser Vertrag aktuell aber auch nur bis zum geplanten Umbau läuft, könnte ich Ihnen den Termin derzeit nur auf der Warteliste anbieten.
+Alternativ kann ich Ihnen anbieten, Sie mit dem Team des Venue Finders<venuefinder.at> zu verknüpfen. Der Venue Finder könnte parallel Alternativlocations für Sie suchen und Angebote einholen, entweder für den Fall, dass die Aula der Wissenschaften nicht verfügbar sein sollte oder überhaupt als Ersatz. Die Leistungen des Venue Finders sind für Sie selbstverständlich kostenlos und auch bei erfolgreicher Vermittlung dürfen die Locations nicht mehr verrechnen als bei einer direkten Anfrage).
+
+Bei Fragen stehe ich natürlich gern zur Verfügung.
+
+
+Beste Grüße / kind regards
+Mag. Christoph Kiener BA (he/him, er/ihm)
+Operative Leitung - Aula der Wissenschaften
+
+
+KOOP LIVE-MARKETING GmbH & Co KG
+T: +43 1 890 6601 109
+M: +43 676 888 90 109
+Bäckerstraße 20 | 1010 Wien | Austria
+c.kiener@koop.at | www.koop.at | www.aula-wien.at | c.kiener@aula-wien.at
+
+RECHNUNGSADRESSE:
+KOOP LIVE-MARKETING GmbH & Co KG - St. Peter Hauptstraße 208, 8042 Graz
+Firmenbuchnummer: FN 200116 p | UID-Nr. ATU50375801
+Zusendung digitaler Rechnungen bitte ausschließlich an: buchhaltung-graz@koop.at
+
+Persönlich haftender Gesellschafter: KOOP LIVE-MARKETING GmbH
+Firmenbuchnummer: FN 531362 s | Firmenbuchgericht: Landesgericht für ZRS Graz
+
+[image008.png][image002.png][image014.png][image015.png][image016.png][image017.png]
+
+________________________________
+
+On 14.10.2025, 13:27:36, Gregor Lach wrote:
+Liebes Aula der Wissenschaften-Team,
+
+
+wir möchten die Aula der Wisschenschaften für einen Kongress im September 2027 anfragen – mit der Info, ob bis dahin Umbauarbeiten o.ä. geplant sind die in diesen Zeitraum ragen.
+
+Falls nicht, würde ich mich nach einer kurzen Antwort mit den ersten Details bzgl. Angebot melden – vermutlich mit Preisen für 2026!?
+
+
+Mit besten Grüßen
+
+Gregor Lach
+
+
+Mit freundlichen Grüßen
+
+
+
+Mag.(FH) Gregor Lach, Captain
+Unitleiter Business Events
+
+DocLX Holding GmbH
+
+Ringstraßen-Palais Schnapper
+
+Parkring 20
+1010 Wien
+
+<http://www.doclx-holding.com/>www.doclx-holding.com<http://www.doclx-holding.com>
+
+email:
+phone:
+fax:
+mobile:
+
+<mailto:gregor.lach@doclx-holding.com>gregor.lach@doclx-holding.com<mailto:gregor.lach@doclx-holding.com>
++43 (1) 47 87 255
++43 (1) 47 87 255 – 70
++43 (676) 844 01 18 29
+
+Firmenbuch: FN190932h, Handelsgericht Wien
+
+ISO / IEC17024 TÜV Certificate l Certified Event Agency
+Member of EMBA l Event Marketing Board Austria
+
+<image001.png>
+
+
+
+HINWEIS:
+
+Alle von Gesellschaften der DocLX Holding GmbH elektronisch übermittelten Auskünfte, Mitteilungen
+
+und Erklärungen sind vertraulich und rechtlich unverbindlich. Verpflichtungen von Gesellschaften der
+
+DocLX Holding GmbH bedürfen der schriftlichen Einigung in sämtlichen Vertragspunkten sowie der Unterfertigung
+
+durch das vertretungsbefugte Organ. Im Falle einer Fehlübermtlung ersuchen wir um Benachrichtigung sowie um
+
+Vernichtung und Beachtung, dass jegliche Form der Verwendung und Weitergabe der Inhalte an Dritte unzulässig ist.",1760695968,1760695968,AAMkADgxNjBlMTYwLTVmMWQtNDJiMy05OTU1LWIwZjYyZjg3YzU1MABGAAAAAABxJxYHl/RmTq8NlcwHzkDCBwDuvVlZ4JyKQLLbydgtgZnOAAAAAAEJAADuvVlZ4JyKQLLbydgtgZnOAAGxQp/bAAA=,
+610177,Abarbeiten,,,KOOP365,,4,Posteingang,Posteingang,Ertelt Felizitas <Felizitas.Ertelt@bmb.gv.at>,Christoph Kiener <c.kiener@aula-wien.at>,,,AW: Re: Info-Anfrage und Raumgestaltung,"Lieber Christoph,
+
+wir belassen es mit der großen Bühne. Bitte 2. OG wie gehabt.
+
+Vielen Dank und lieben Grüße
+Felizitas
+
+Von: Christoph Kiener <c.kiener@aula-wien.at>
+Gesendet: Donnerstag, 2. Oktober 2025 17:22
+An: Ertelt Felizitas <Felizitas.Ertelt@bmb.gv.at>; Christoph Kiener <c.kiener@aula-wien.at>
+Betreff: Re: Info-Anfrage und Raumgestaltung
+
+ACHTUNG: Diese E-Mail stammt von außerhalb der Organisation. Bitte vermeiden Sie das Öffnen von Links und Anhängen, es sei denn, Sie kennen und vertrauen der Absenderin/dem Absender.
+
+
+Liebe Frau Ertelt,
+
+wie eben telefonisch besprochen, anbei der geänderte Plan fürs Erdgeschoß.
+Mit den Änderungen des 2.OG warten wir noch bis 16.10.
+
+Liebe Grüße,
+Christoph",1760697002,1760696998,AAMkADgxNjBlMTYwLTVmMWQtNDJiMy05OTU1LWIwZjYyZjg3YzU1MABGAAAAAABxJxYHl/RmTq8NlcwHzkDCBwDuvVlZ4JyKQLLbydgtgZnOAAAAAAEMAADuvVlZ4JyKQLLbydgtgZnOAAGxQk2WAAA=,
+610194,Abarbeiten,,,KOOP365,,4,Posteingang,Posteingang,Event Inc <noreply@eventinc.de>,office@aula-wien.at,,,Erinnerung: Bitte aktualisieren Sie den Status Ihrer Event Anfragen [DC290A],"Event Inc
+
+Hello.
+
+Da fehlt noch was!
+
+Liebes Aula der Wissenschaften-Team,
+
+bisher haben Sie den Status Ihrer Buchung leider noch nicht
+aktualisiert. Bitte tragen Sie in der Anfrage des Kundens nach:
+- Wurde Ihre Location gebucht?
+- Wenn ja: Zu welchen Konditionen?
+
+Status aktualisieren 
+( https://email.mg2.eventinc.de/c/eJw0jzGvmzAUhX-N2YjgGow9MERFLO3QrSO6tm8e1gt2al-C0l9f8fSyfjqfzjl-HDopza2isR1Uo4wZtK7WUUkLSvWDhMZqaJoOLGjtjOmwGxzYKoxK3wB6bb2FVi8S-7YFItTg2l5Da5TomvCoWwN1q3QN0tS9uWwY7tV9XJkfQl4FzALm4zgu9KTIIboLsoD5kdMzeMq1x7LahNkLmDP93alwETBPP8A0p00-sJAz7ryevkMOKS6cPikKOb3-_fn1esLxe_XTz1yra_eaBaidt8Xh9sDwcaZsyflNU2SKLOTkGL_ZRj7sm5ATndu_YUl7diTkVF6FaavymG634Eh0De53rI9A8YJc8WhT-gzxYymMvJcl0xaipyzkNZPbc_6qu74PV88R_gcAAP__YQaCyg )
+
+
+Alle offenen Anfragen 
+( https://email.mg2.eventinc.de/c/eJw0zjGPpCAUAOBfAx1GHopQUJhMbO6K6640CM-VzAzM4lMz--s3W2z_FV90Q6eUXTk6OehWWzsYwzdnNciwhAAteGshdCFYNBKWoetBBuTJabMC9GaJC0gzK99LCYjeQJC9AWk169r0EtKCkNoIUFb0tnn69OAPtxG9mBoZTAym67oaPDFTyqHxxGB61XKmiFVEv29L8TUymCp-HrjTztTkD9p-fPCUSp6p3DEzdXt__f_7PuH6t8Xbnyr02L0nXl1Z1xSQda0_Hl5cCXPjiZNbSrmn_DHv5OnY54rPlCNWpsaK4agVMzE1_l746eA7AAD__9vUYRE )
+
+
+Bitte antworten Sie nicht auf diese E-Mail. Wenn Sie Hilfe
+benötigen, dann wenden Sie sich bitte an support@eventinc.de.
+
+Herzliche Grüße
+Ihr Event Inc Team
+
+Facebook ( https://email.mg2.eventinc.de/c/eJwUy8GNhSAQANBq4KaB4QvMgYMX2zAIw36yCgZR299sAS8681EKEycnjRYa0VjLv06oYDQKMaWIRqIggwCbgqgjeGWQZ6dtApjsFjeQdlV-khKIvIUgJwsSNfuIfA4SYZDaDqBwmHA8fN757r69nxdTM4OFwfK-75h8oK3W3zHUg8FCD5WeSxgj8eZqSjkQ-wh_7354M5XRd97dP8jlZ7267_e1NjpyidSYmhuFuzUqnan5bPXJkRp_HPwFAAD__2wdSZo )
+
+Twitter ( https://email.mg2.eventinc.de/c/eJwEwEGOpSAQANDTwE4jhWCxYOFiTOYUBrHoT1rBYOm_fr_dT6PWLknyarKDdW5ClB-_2xRJx8lZS4jTaBSRDc44Y-OGQ5LZW0wABrd9A4WrDkYpIAoIURkE5awYh3x1ykGnLHagXWdcf4Z8yMN_mK9b6FnAImDhb2am1sd6Clj-vVR4_V-ibL6mlCOJcQjPEbpvptIHluy3Wn9z-VlvDvzca6Mzl52a0HOj-LRGhYWer1bfvFOTr4e_AAAA__8e10fl )
+
+Website ( https://email.mg2.eventinc.de/c/eJwEwDGyhCAMANDTQKdDgkYoKGy8hgMS_jLfRQdRr78vumnQ2ibJDiZSZO1kjPw4GogssYGkaSQ1cAqkp6RUCABeJZkdmYQ4mhADglm1HwGQ2RvcYDQIlsSg8tmBxQ7IdKhtN9r-6_Mud_dp7byEngUuApf3fXt-uLRctj6ywEVWd6SUNxaD8vfuuzdz6X2TzYXj-M_lb72ab_e1Vv7mErkKPVfe7lq5NKHnsx5Pjlzl4_AXAAD__zywRUs )
+
+Email ( mail@eventinc.de )
+
+Facebook
+
+Twitter
+
+Website
+
+Email
+
+Copyright © Event Inc 2025. All rights reserved.
+
+Eventinc GmbH
+Neustädter Neuer Weg 22
+20459 Hamburg",1760699792,1760699787,AAMkADgxNjBlMTYwLTVmMWQtNDJiMy05OTU1LWIwZjYyZjg3YzU1MABGAAAAAABxJxYHl/RmTq8NlcwHzkDCBwDuvVlZ4JyKQLLbydgtgZnOAAAAAAEMAADuvVlZ4JyKQLLbydgtgZnOAAGxQk2ZAAA=,
