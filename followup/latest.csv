@@ -3259,68 +3259,6 @@ Unsere neue Website ist online<https://mondial-events.com/>
 
 FN 14350d, (GmbH: FN 117613k)
 LG Wr. Neustadt, UID-Nr.: AT U17358605",1760615344,1760615344,AAMkADgxNjBlMTYwLTVmMWQtNDJiMy05OTU1LWIwZjYyZjg3YzU1MABGAAAAAABxJxYHl/RmTq8NlcwHzkDCBwDuvVlZ4JyKQLLbydgtgZnOAAAAAAEJAADuvVlZ4JyKQLLbydgtgZnOAAGwBWmPAAA=,
-609965,warte auf Antwort,1761170400,,Goinplaces,,,Sent,Sent,"""Mag. Christoph Kiener | Goin' Places"" <c.kiener@goinplaces.at>",=?iso-8859-1?Q?Lukas_Kr=E4nkl?= <lukas@gebruederpixel.at>,,,AW: neue JSONs,"Lieber Lukas,
-
-ich glaube es passt fast alles soweit. Ich hab leider wieder das Verbindungsproblem und muss den Browser immer wieder neu starten...
-Mir fällt aber auf, dass es ein paar locations gibt, wo beim Import was schief gegangen sein dürfte. Es gibt einige, die Bilder haben sollte (sicher vor dem Rollback welche hatten) und aber auch die Räume zb verloren haben. Beispielsweise Orangerie Schönbrunn, Tanzwelt Zehender oder der Kaiserpavillon. Da steht in der übersicht auch 0 Gäste, 0 Räume.
-ich hab exemplarisch für den Kaiserpavillion die JSONs gecheckt und es ist im room.json jedenfalls ein Raum vorhanden der auch die korrekte id hat (1399). interessanterweise taucht die location jetzt sogar 2 mal auf, einmal mit Bildern einmal ohne, beide male aber ohne Rauminfos obwohl im älteren der raum scheinbar hinterlegt ist.
-ich blick da nicht ganz durch… 
-
-bzgl automatischem Import hatten wir im Juli geschrieben. Du hast geschrieben:
-Wir werden im Root Verzeichnis von Wordpress einen Ordner erstellen, der xchange/ heißt.
-
-Dort drinn soll dein Script einfach regelmäßig die JSON Dateien hin kopieren.
-
-Wir schreiben ein Cron Script, dass daraus dann regelmäßig den Importer von Wordpress anstößt.
-
-
-
-sollen wir das so machen?
-Liebe Grüße, 
-Christoph 
-----
-On 15.10.2025, 22:28:15, Lukas Kränkl wrote:
-
-
-Lieber Christoph,
- 
-wir haben das Backup eingespielt, alle Updates aufgespielt und die neuen JSONs importiert.
-
-Bitte checke, ob jetzt die Verknüpfungen wieder passen und die neuen Daten auch korrekt sind.
-
- 
-Morgen bin ich endlich einmal ganztags nur im Büro und gut erreichbar.
-
- 
-Bezüglich Transfer würde ich zunächst noch die komplette Entwicklung auf unserem Dev Server abschließen und erst dann transferieren, wenn wir mit dem Stand tatsächlich live gehen
- wollen. 
-Hast du schon Informationen bezüglich Automatisierung der JSON Schnittstelle?
-Den automatischen Import würde ich nämlich auch lieber noch am Dev Server entwickeln, weil es bei der Containerlösung ein bisschen schwerer zu testen geht.
-
- 
-Liebe Grüße und schönen Abend
-Lukas
- 
- 
-
-Von: Mag. Christoph Kiener | Goin' Places <c.kiener@goinplaces.at>
-
-Gesendet: Mittwoch, 15. Oktober 2025 14:46
-An: Lukas Kränkl <lukas@gebruederpixel.at>
-Betreff: neue JSONs
-
- 
-
-
- 
-
-Hi,
-hier die tagesaktuellen JSONs.
-
-Liebe Grüße, 
-
-
-Christoph",1760617623,1760617623,,7587
 610008,warte auf Antwort,1761170400,,KOOP365,,4,Gesendete Elemente,Gesendete Elemente,Christoph Kiener <c.kiener@aula-wien.at>,Maelle Javori <maelle.javori@dzk-travel.com>,Anne-Sophie Sanson <annesophie.sanson@dzk-travel.com>,,251069- Gala dinner June 260 pax,"Dear Ms. Javori,
 
 Unfortunately, I can only offer the desired dates on the waiting list, but this is less because they are not available and more because we do not know whether the Aula der Wissenschaften will still exist in its current form in the future. The new owner is currently planning a renovation starting in 2026, which is expected to last until mid-2027. Unfortunately, I cannot yet say which events will be possible afterwards and what capacity they will have.
@@ -3634,3 +3572,348 @@ Copyright © Event Inc 2025. All rights reserved.
 Eventinc GmbH
 Neustädter Neuer Weg 22
 20459 Hamburg",1760699792,1760699787,AAMkADgxNjBlMTYwLTVmMWQtNDJiMy05OTU1LWIwZjYyZjg3YzU1MABGAAAAAABxJxYHl/RmTq8NlcwHzkDCBwDuvVlZ4JyKQLLbydgtgZnOAAAAAAEMAADuvVlZ4JyKQLLbydgtgZnOAAGxQk2ZAAA=,
+610270,Abarbeiten,,,KOOP365,,4,Posteingang,Posteingang,Angelika Haberler <a.haberler@goinplaces.at>,Christoph Kiener <c.kiener@aula-wien.at>,Katharina Zehender <k.zehender@goinplaces.at>,,Abschätzung Vollvirtualisierung Palais Auersperg,"ahh ok das is grauslich, dass er das gemacht hat o.O ich glaube, das 
+liegt an open office zu excel.. ich hab mal das open office in den 
+anhang gegeben, kannst du dir vl das ansehen?
+(Falls nicht im excel: open office is gratis, bzw irgendeinen online 
+viewer verwenden, z.B.: 
+https://products.fileformat.app/de/word-processing/viewer/odt )
+
+bzgl. dem Vestibül: das ""modellieren zusätzlich"" ist der untere Teil, 
+den man dann nicht braucht, wenn man nur so runterschauen kann, und die 
+""halbe Statuen die die Ecken halten"" sowie ""Büsten beim Eingang"" würde 
+man dann auch nicht brauchen, und beim lighting hab ich dazugeschrieben, 
+dass es dann nurnoch die Hälfte braucht. So hast du das eh gemeint, 
+oder?
+
+Wegen den Zeiten kommt mir das tatsächlich ein bisschen lang vor.. aber 
+ich hab bei vielen auch mehr optionen dazugeschrieben, die zusammen 
+garnicht in frage kommen, und manches dann extra/doppelt aufgelistet, 
+vielleicht deshalb? 🤔
+
+Sag mal, ob das mit dem open office jetzt bei dir geht bitte :)
+
+LG Angie
+
+Mit freundlichen Grüßen
+
+Angelika Haberler
+Lead Technical 3D Artist
+
+  [2]
+  [3]
+
+mailto: a.haberler@goinplaces.at
+
+--------------------------------------------------------
+
+Goin' Places GmbH | Himmelpfortgasse 17/14 | 1010 Wien
+
+office@goinplaces.at | +43 1 361 14 40 112
+
+www.goinplaces.at [2] l FN452650m l UID: ATU71185914
+
+Diese Nachricht ist für Goin' Places GmbH rechtsunverbindlich.
+
+Datenschutz
+
+On 16.10.2025 17:02, Christoph Kiener wrote:
+
+> Hi,
+> 
+> sorry ich komm erst jetzt dazu mir das in ruhe anzuschauen. leider ist 
+> das excel extrem unübersichtlich formatiert - die Spalten sind auch 
+> nicht beschriftet und ich weiß oft nicht welcher text genau wohin 
+> gehört.
+> wenn ich die Abschätzungen aber alle zusammen rechne sind das 1063 
+> Stunden. Das wären ~27 Wochen, also etwa 6 Monate. Stimmt das wirklich? 
+> Sollen wir versuchen einen Besichtigungstermin zu organisieren für eine 
+> bessere Abschätzung?
+> ich vermisse auch zb im Vestibül die verschiedenen Optionen, die wir 
+> gesagt haben. oder ich sehs auf grund der Formatierung nicht richtig. 
+> (Auch die KI kanns nicht ordentlich auseinanderhalten :) )
+> kannst du das bitte etwas übersichtlicher aufschlüsseln?
+> 
+> danke
+> Liebe Grüße,
+> Christoph
+> 
+> -------------------------
+> 
+> On 13.10.2025, 16:27:15, Angelika Haberler wrote:
+> 
+> Aaaalso, wie besprochen hier mal, und da wie gesagt noch:
+> 
+> <9fbcd388.png>
+> die weißen Räume hab ich ziemlich genau sehen können, gelb wenig oder 
+> nicht alle seiten, rot garnicht (wobei da einige sicher auch egal sind, 
+> weil Toiletten)#
+> Genaueres im Excel.
+> 
+> Wegen den Statuen/Büsten, Kronleuchtern, Krügen usw. eben, dass man 
+> schauen muss, welche genauso aussehen müssen und welche man evtl. 
+> schnell durch vorhandene oder
+> gratis/günstige Assets ersetzen kann.
+> 
+> Hab alle Statuen extra aufgelistet die ich gesehen hab, sollten sie 
+> nicht in der Liste stehen würd das heißen sie sind jetzt nicht mit 
+> einberechnet
+> Ich hoffe es macht alles sinn, ist ein bissl ein Rabbithole, sonst 
+> einfach melden 0:-)
+> LG Angie
+> P.S.: wenn das matterport doch noch auftaucht... ihr wisst Bescheid :) 
+> Bitte schicken ;)
+> 
+> Mit freundlichen GrüßenSignature [1]
+> 
+> Angelika Haberler
+> Lead Technical 3D Artist
+> 
+> <a2c26a88.jpeg> [2]
+> <ecd5485d.jpeg> [3]
+> 
+> mailto: a.haberler@goinplaces.at
+> 
+> --------------------------------------------------------
+> 
+> Goin' Places GmbH | Himmelpfortgasse 17/14 | 1010 Wien
+> 
+> office@goinplaces.at | +43 1 361 14 40 112
+> 
+> www.goinplaces.at [2] l FN452650m l UID: ATU71185914
+> 
+> Diese Nachricht ist für Goin' Places GmbH rechtsunverbindlich.
+> 
+> Datenschutz
+> 
+> On 09.10.2025 14:46, Christoph Kiener wrote:
+> 
+> tutto kompletti halt :)
+> also bitte mal alles abschätzen. Maria Theresia verwechselst du mit 
+> Schönbrunn, da gibts auch einen Boxraum der so heißt. vom Auersperg 
+> aber nicht. zumindest hab ich damals keinen gemacht und auch keine 
+> Fotos davon (solltest du den auch fotografiert haben damals) ich hab 
+> hier [4] noch ein Video gefunden wo man vielleicht ein bisl mehr sieht. 
+> es gab scheinbar auch mal ein matterport modell, das scheint aber nicht 
+> mehr online zu sein. ansonsten google die einzelnen räume einfach - es 
+> gab so viele Veranstaltungen im Auersperg, da gibts sicher jede menge 
+> Fotos online.
+> @Kathi: kannst du vielleicht fragen, ob sie dazu noch Zugang haben?
+> 
+> Wir werden eine Abschätzung brauchen, die ein bisl Modular ist. also 
+> den Park zb jedenfalls extra - falls sie den Außenbereich doch nicht 
+> brauchen.
+> Das Vestibül vermutlich auch einmal so, das man wirklich vom 
+> Straßen-Eingang bis hinauf in die Beletage gehen kann, und einmal nur 
+> so, dass man oben halt durchgehen kann, sieht, dass da die stiegen 
+> hinunter gehen, aber nicht runtergehen kann. wie bei den kasematten zu 
+> den Klos zb.
+> was die Loggia ist, weiß ich leider nicht, ansonsten muss zumindest 
+> alles abgeschätzt werden, was am Plan einen Namen hat und die Bereiche, 
+> die man im Zweifel braucht um dort hin zu kommen.
+> die Galerie im Wintergarten kann ruhig begehbar sein, darunter ist eh 
+> nur die Bar.
+> 
+> anbei auch noch ein PDF. da kannst vielleicht auch noch ein paar infos 
+> rausholen
+> 
+> lgc
+> 
+> -------------------------
+> 
+> On 09.10.2025 at 13:17:32, Angelika Haberler wrote:
+> 
+> Hi!!
+> 
+> Ok aaaalso, ums nochmal zusammenzufassen, das wär dann:
+> die 3 Räume die wir eh kennen und lieben (bzw. ich ^^ = rudolf, 
+> wintergarten + rosenkavalier)
+> 
+> + Maria theresien saal (gibts auch schon als box raum wenn ich mich 
+> nicht irr)
+> 
+> + Bibliothek & Loggia (das war um den wintergarten drum rum, wenn ich 
+> mich richtig erinnere?)
+> + Vestibül =
+> 
+> (nach betrachtung der zweiten Webseite ;))
+> Verbindungsgänge wär dann alles hier am plan, was ich nicht genannt 
+> habe?
+> <423cbf61.png>
+> 
+> Bzw. abzüglich der sonstige Räume die dann halt noch wären:
+> - Gluck Galerie
+> - Rofrano
+> - Idomeneo Saal
+> - Kaisersaal
+> - Musik Salon
+> 
+> (auf der Webseite gibts von dem ganzen grad keine Fotos, also alles was 
+> ich dann nicht anderweitig ergoogeln kann, werd ich dann nicht wirklich 
+> abschätzen können,
+> aber vl könnts ihr das dann anhand von den anderen selbst grob 
+> abschätzen? z.B. ähnliche Elemente wiederverwenden, einen Raum als 
+> Referenz für was anderes nehmen usw.)
+> 
+> Den Park auch? schaut auf den fotos grad so aus als wäre der von bäumen 
+> umzäunt, bzw. wenns gut genug hinkommt, könnte man das nutzen dass man 
+> sich die umgebung spart ohne dass es doof aussieht?
+> (bzw dann wo man durch die Bäume sieht ur schnell verschwommen Google 
+> Maps screenshots und passt)
+> 
+> Und: wollen die das so wie SB haben? Dass man durchs ganze durchgehen 
+> kann? (und dann für einfachheit + VF jeweils einzelne szenen)
+> heißt evtl. andenken, dass Gänge und ""weniger wichtige"" Räume (die sie 
+> dann definieren) nur als weniger detailgetreue Teilvirtualisierung 
+> umgesetzt werden (siehe in SB die Seminarräume und die Gänge und so)
+> 
+> Hab ich was vergessen? :)
+> LG Angie
+> 
+> Mit freundlichen Grüßen
+> 
+> Angelika Haberler
+> Lead Technical 3D Artist
+> 
+> <a2c26a88.jpeg> [2]
+> <ecd5485d.jpeg> [3]
+> 
+> mailto: a.haberler@goinplaces.at
+> 
+> --------------------------------------------------------
+> 
+> Goin' Places GmbH | Himmelpfortgasse 17/14 | 1010 Wien
+> 
+> office@goinplaces.at | +43 1 361 14 40 112
+> 
+> www.goinplaces.at [2] l FN452650m l UID: ATU71185914
+> 
+> Diese Nachricht ist für Goin' Places GmbH rechtsunverbindlich.
+> 
+> Datenschutz
+> 
+> On 09.10.2025 11:09, Christoph Kiener wrote:
+> 
+> huiuiui... :)))
+> @Angie: dann musst du bitte sagen, ob bzw as du noch brauchst.
+> 
+> Liebe Grüße,
+> Christoph
+> 
+> -------------------------
+> 
+> On 09.10.2025 at 11:05:59, Katharina Zehender wrote:
+> 
+> Tutti completti
+> Von meinem iPhone gesendet
+> 
+> Am 09.10.2025 um 10:56 schrieb Christoph Kiener 
+> <c.kiener@aula-wien.at>:
+> 
+> Hi,
+> 
+> eine Abschätzung hab ich jetzt nicht gefunden.
+> @Angie: hast du da was? Wenn nicht, kannst du bitte die Abschätzung 
+> machen? Du hast damals im Auersperg die Fotos für die Box gemacht, 
+> brauchst du sonst noch etwas für die Abschätzung? (neue HPs: 
+> https://www.auersperg.com und 
+> https://www.palaisauersperg.events/index.php [5])
+> @Kathi: welche Räume sollen abgeschätzt werden? Als Boxräume haben wir 
+> Kronprinz Rudolf, Rosenkavaliersaal und den Wintergarten. Wie schaut es 
+> mit dem Rest aus? Verbindungsgänge? Vestibül (Hauptstiege, was ist mit 
+> dem Eingangsbereich/Garderoben unten?)? Park?
+> 
+> Liebe Grüße,
+> Christoph
+> 
+> -------------------------
+> 
+> On 09.10.2025 at 10:44:40, Katharina Zehender wrote:
+> 
+> Hi,
+> 
+> Haben wir das schon mal abgeschätzt?
+> 
+> Wenn nein, könntet ihr das bitte machen
+> 
+> Danke
+> Liebe Grüße
+> Kathi
+> 
+> Katharina Zehender
+> 
+> Geschäftsführende Gesellschafterin
+> 
+> <IMAGE_6.jpeg>
+> 
+> mailto: k.zehender@goinplaces.at
+> 
+> Mobil:  + 43 660 922 58 90
+> --------------------------------------------------------
+> 
+> office@goinplaces.at l +43 1 890 66 01 660
+> www.goinplaces.at [6] l FN452650m l UID: ATU71185914
+> 
+> Membership:
+> <IMAGE_28.png>
+> 
+> Folgen Sie uns auch auf:
+> Facebook [7] Instagram [8] LinkedIn [9] Xing [10]
+> 
+> <IMAGE_29.png>
+> <IMAGE_30.png>    <IMAGE_31.png> <IMAGE_32.png>
+
+<Abschätzung_PalaisAuersperg.xls>
+
+Links:
+------
+[1] 
+https://webmail.world4you.com/?_task=mail&_action=compose&_id=159243781068ecd919ad47b#
+[2] http://www.goinplaces.at
+[3] http://www.fairevent.at
+[4] https://storage.justimmo.at/video/1080p/5AZVv7Q6FvAsJOR3sOCGmJ.mp4
+[5] https://www.palaisauersperg.events/index.php
+[6] http://www.goinplaces.at/
+[7] https://www.facebook.com/goinplacesofficial
+[8] https://www.instagram.com/goinplacesgmbh/
+[9] https://www.linkedin.com/company/8777204/admin/
+[10] https://www.xing.com/pages/goinplacesgmbh",1760707168,1760707153,AAMkADgxNjBlMTYwLTVmMWQtNDJiMy05OTU1LWIwZjYyZjg3YzU1MABGAAAAAABxJxYHl/RmTq8NlcwHzkDCBwDuvVlZ4JyKQLLbydgtgZnOAAAAAAEMAADuvVlZ4JyKQLLbydgtgZnOAAGxQk2gAAA=,
+610363,Abarbeiten,,,KOOP365,,4,Posteingang,Posteingang,"""Raimann; Jakob"" <j.raimann@avpro.at>","""office@aula-wien.at"" <office@aula-wien.at>","""Melchart; Andreas"" <a.melchart@avpro.at>",,Bayer / MCI - Termin Site Inspection,"Hallo,
+wie vorhin am Telefon besprochen bitte ich um einen Termin zwischen 27.11-30.11. für eine kurze Site Inspection in der Säulenhalle um eine Wand zu vermessen. (Die betreffende Veranstaltung ist von Bayer (Agentur MCI ) und findet am 12.12.25 statt.
+
+Vielen Dank!
+Lg.
+
+
+
+<http://www.avpro.at/>[cid:AV_PRO_Logo_Master_Mail4_2024@2x_b0346bc9-a938-4096-8eb0-d574025f5fd2.gif]
+
+
+
+Jakob RAIMANN
+Project Manager  |  Event Solutions
+        [cid:SocialLink_Instagram_32x32_bf980131-040b-4e71-b2fe-ead5453fa8f6.png] <https://www.instagram.com/avpro.vienna>  [cid:SocialLink_Facebook_32x32_fddb3388-65c2-4a52-830e-6319ad20720c.png] <https://www.facebook.com/avpro.vienna>  [cid:SocialLink_Linkedin_32x32_e75bd0e3-d451-4758-9ae3-f28c496a1868.png] <https://www.linkedin.com/company/av-professional-gmbh>  [cid:www.youtube.com__11a67e88-d152-4286-a30b-b399acb78e2d.png] <https://www.youtube.com/@avpro.vienna>
+
+AV-Professional GmbH
+City Park Vienna | Brunner Strasse 63/23 | 1230 Vienna
+
+
+phone   +43 1 252 10 14<tel:+43%201%20252%2010%2014>    company reg.    128506f
+fax     +43 1 252 10 99<tel:+43%201%20252%2010%2099>    UID / VAT-ID    ATU15062704
+mobile  +436642061265<tel:+436642061265>        headquarter     Vienna
+
+email   j.raimann@avpro.at<mailto:j.raimann@avpro.at>   jurisdiction    Commercial
+web     www.avpro.at<http://www.avpro.at/>              Court Vienna
+
+data
+
+
+File Transfer Tool<https://transfer.avpro.at/submit/j_raimann>
+
+
+[cid:EmailBanner_XPoster_Sep25_900px_v02_a2cbb2f6-3f9c-42de-a6fc-865062379011.jpg]
+
+
+Diese Nachricht und sämtliche Attachments sind für den ausschließlichen Gebrauch des Adressaten bestimmt und kann privilegierte, vertrauliche oder auf andere Weise von der Veröffentlichung ausgeschlossene Informationen enthalten. Wenn Sie nicht der Adressat sind, sind Sie nicht autorisiert, diese Nachricht, die angeschlossenen Dateien oder irgend einen Teil davon zu lesen, zu drucken, zu behalten, zu kopieren oder weiterzugeben. Wenn Sie diese Nachricht irrtümlich erhalten haben, bitte verständigen Sie uns sofort per E-Mail und vernichten Sie alle Kopien (elektronische oder andere Kopien) dieser Nachricht.
+
+This e-mail, and any attachments thereto, is intended only for use by the addressee(s) named herein and may contain legally privileged and/or confidential information. If you are not the intended recipient of this e-mail, you are hereby notified that any dissemination, distribution or copying of this e-mail, and any attachments thereto, is strictly prohibited. If you have received this e-mail in error, please immediately notify me by telephone or e-mail and permanently delete the original and any copy of any e-mail and any printout thereof.",1760949610,1760949596,AAMkADgxNjBlMTYwLTVmMWQtNDJiMy05OTU1LWIwZjYyZjg3YzU1MABGAAAAAABxJxYHl/RmTq8NlcwHzkDCBwDuvVlZ4JyKQLLbydgtgZnOAAAAAAEMAADuvVlZ4JyKQLLbydgtgZnOAAGzENEQAAA=,
